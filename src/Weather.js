@@ -1,10 +1,11 @@
 import React from "react";
 import SearchForm from "./SearchForm";
+import "./Weather.css";
+import "./SearchForm.css"
 
 export default function Weather() {
   return (
     <div className="Weather">
-      <div className="container">
         <SearchForm />
         <h1>New York</h1>
         <ul>
@@ -27,7 +28,6 @@ export default function Weather() {
             </ul>
           </div>
         </div>
-      </div>
     </div>
   );
 }
